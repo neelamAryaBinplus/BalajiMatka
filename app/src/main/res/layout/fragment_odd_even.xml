@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.GamesFragment.OddEvenFragment">
+
+    <include layout="@layout/background_layout"/>
+<!--    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:layout_weight=".5"
+                android:textAllCaps="true"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:drawableStart="@drawable/thursday_16px"
+                android:textColor="@color/black"
+                android:background="@drawable/card_shape"
+                android:text="@string/select_date"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:textStyle="italic|bold"
+                android:layout_weight=".5"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/card_shape"
+                android:text="@string/select_game_type"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            >
+           <CheckBox
+               android:id="@+id/check_odd"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/odd_number"
+               android:textSize="16dp"
+               android:textStyle="bold"
+               android:paddingLeft="10dp"
+               android:buttonTint="@color/white"
+               android:textColor="@color/white"/>
+
+            <CheckBox
+                android:id="@+id/check_even"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text="@string/even_number"
+                android:paddingLeft="10dp"
+                android:buttonTint="@color/white"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            >
+            <TextView
+                android:textAllCaps="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/point"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"/>
+            <EditText
+                android:id="@+id/et_point"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/points"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+                android:textColorHint="@color/gray"
+                android:maxLength="5"
+                android:textSize="14dp"
+
+
+                android:background="@drawable/card_shape"/>
+
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/add"
+            />
+        <include layout="@layout/gamebottomlayout"/>
+    </LinearLayout>
+    </ScrollView>
+<!--    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
+</RelativeLayout>

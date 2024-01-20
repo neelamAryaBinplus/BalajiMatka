@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.games.gdmatkalive">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.web4"/>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.CHOOSER" />
+
+            <data android:scheme="upi" />
+        </intent>
+
+        <!-- Package Specific UPI Apps -->
+        <package android:name="in.amazon.mShop.android.shopping" />
+        <package android:name="in.org.npci.upiapp" />
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+        <package android:name="com.phonepe.app" />
+        <package android:name="net.one97.paytm" />
+    </queries>
+    <application
+        android:name="in.games.gdmatkalive.Util.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GDMatkaLive">
+        <activity android:name="in.games.gdmatkalive.Activity.ForgotPasswordWhatsppActivity"/>
+        <activity android:name="in.games.gdmatkalive.Activity.MpinLoginActivity" />
+        <activity android:name="in.games.gdmatkalive.Activity.PasschangeActivity" />
+        <activity android:name="in.games.gdmatkalive.Activity.ForgetActivity" />
+        <activity android:name="in.games.gdmatkalive.Activity.RegisterActivity" />
+        <activity android:name="in.games.gdmatkalive.Activity.LoginActivity" />
+        <activity android:name="in.games.gdmatkalive.Activity.PaymentActivity"
+            android:exported="true"
+            android:label="Razorpay Payment" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_8b1OKltFTrsEON"/><!-- change id -->
+
+        <activity android:name="in.games.gdmatkalive.Activity.EditUserDetailsActivity" />
+        <activity android:name="in.games.gdmatkalive.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="in.games.gdmatkalive.Activity.MainActivity" />
+
+<!--        <service android:name="in.games.gdmatkalive.Config.MyFirebaseMessagingService">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+    </application>
+
+</manifest>

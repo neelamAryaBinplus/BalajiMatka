@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            >
+           <ImageView
+               android:id="@+id/logo"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginBottom="10dp"
+               android:background="@drawable/paytm"/>
+         <EditText
+             android:id="@+id/et_paytm"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/logo"
+             android:background="@drawable/edit_bg"
+             android:textSize="18dp"
+             android:padding="10dp"
+             android:maxLength="10"
+             android:hint="Enter Paytm number"
+             android:textStyle="italic"
+             android:textColorHint="@color/black"
+             android:textColor="@color/textcolor"
+             android:inputType="number"
+             android:gravity="center"
+             android:layout_marginRight="10dp"
+           />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_paytm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/button_bg"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

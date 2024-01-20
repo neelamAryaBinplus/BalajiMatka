@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">Balaji Matka</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="odd_number">ODD NUMBER</string>
+    <string name="even_number">EVEN NUMBER</string>
+    <string name="single_panna">SINGLE PANNA</string>
+    <string name="double_panna">DOUBLE PANNA</string>
+    <string name="triple_panna">TRIPLE PANNA</string>
+    <string name="jodi_family">JODI FAMILY</string>
+    <string name="panna_family">PANNA FAMILY</string>
+    <string name="panna">PANNA</string>
+    <string name="bracket_digit">BRACKET DIGIT</string>
+    <string name="bid_all_bracket">BID ALL BRACKET</string>
+    <string name="welcome">Welcome to </string>
+    <string name="otp">OTP</string>
+    <string name="Bet_Open">Bet Open</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="home_message">Viswas ka Dhanda Vishwas ke Sath</string>
+    <string name="fund">Fund</string>
+    <string name="play_starline">Play Starline</string>
+    <string name="login_account">Login Account</string>
+    <string name="loading...">Loading</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="REGISTER_ACCOUNT">REGISTER ACCOUNT</string>
+    <string name="number">Number</string>
+    <string name="wifi">WIFI</string>
+    <string name="search">Search</string>
+    <string name="Bid_Id">Bid Id :</string>
+    <string name="Digits">Digits :</string>
+    <string name="Coins">Coins :</string>
+    <string name="Play_on">Play On :</string>
+    <string name="on">ON</string>
+    <string name="save">Save</string>
+    <string name="YouTube_Links">YouTube Links</string>
+    <string name="how_to_play_message">Simple Download Our Application From Play Store.Register With Your Mobile Number.
+    Email-id And Username With RSGames.Login Into The Application Using User Name And Password</string>
+    <string name="Play_for">Play FOR : </string>
+    <string name="how_to_play">How To Play GD Martket</string>
+    <string name="youtube_link">YouTube Links</string>
+    <string name="Bit_Time">Bid Time : </string>
+    <string name="Results">Results </string>
+    <string name="Personal_details">Personal Details</string>
+    <string name="add_address_detail">Add Address Details</string>
+    <string name="add_bank_Detail">Add Bank Details</string>
+    <string name="add_payment_details">Add Payment Details</string>
+    <string name="add_googlepay_details">Add Google Pay Details</string>
+    <string name="note">NOTE: User Will Be Responsible For All The Details Submited
+</string>
+    <string name="add_phonepe_details">Add Phonepe Details</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="account_registration">Account Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="user_id">Userid</string>
+    <string name="register_your_self_and_play_games">Register Your Self And Play Games</string>
+    <string name="login">Login</string>
+    <string name="resend">Resend</string>
+    <string name="submit_bid">Submit Bid</string>
+    <string name="submit">Submit</string>
+    <string name="add">Add</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="game_name">Game Name</string>
+    <string name="single_digit">Single Digit</string>
+    <string name="jodi_digit">Jodi Digit</string>
+    <string name="enter_digit_mpin">Enter 4 Digit Mpin</string>
+    <string name="check_your_internet_connection_and_try_again">
+        Check your Internet connection and try again</string>
+    <string name="please_turn_on">Please Turn On</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="get_password">Get Password</string>
+    <string name="generate_mpin">Generate MPIN</string>
+    <string name="biding_history">Biding History</string>
+    <string name="wining_history">Wining History</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_game_type">SELECT GAME TYPE</string>
+    <string name="game_type">Game Type</string>
+    <string name="type">Type</string>
+    <string name="large_text">
+
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="add_point">Add Point</string>
+    <string name="redeem_point">Redeem Point</string>
+    <string name="add_fund_message">For Add Point Query Contact</string>
+    <string name="call_no">0000000000</string>
+    <string name="enter_points">Enter Points</string>
+    <string name="add_fund">ADD FUND ONLINE</string>
+    <string name="open_bid">OPEN BID : </string>
+    <string name="time">Time</string>
+    <string name="close_bid">CLOSED BID : </string>
+    <string name="status">Status</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="notice">Notice</string>
+    <string name="no">NO</string>
+    <string name="game">Game</string>
+    <string name="digit">Digit</string>
+    <string name="point">Point</string>
+    <string name="action">Action</string>
+    <string name="contact">Contact</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="One_Click">One Click</string>
+    <string name="Fast_Access_Login">Fast Access Login</string>
+    <string name="text">Sample Text</string>
+    <string name="withdraw_history">Withdrawal Request History</string>
+    <string name="add_history">Add Fund Request History</string>
+    <string name="market_terms">Balaji Matka  TERMS AND CONDITIONS</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="win_history">WIN HISTORY</string>
+    <string name="bid_history">BID HISTORY</string>
+    <string name="starline_ratio">Balaji Matka STARLINE GAME RATIO</string>
+    <string name="full_app_name">Balaji Matka STARLINE</string>
+    <string name="jackpot_ratio">JACKPOT GAME RATIO</string>
+    <string name="selectDate">SELECT DATE</string>
+    <string name="date">Date</string>
+    <string name="changes">CHANGE</string>
+    <string name="close_digit">CLOSE DIGIT</string>
+    <string name="open_panna">OPEN PANNA</string>
+    <string name="points">POINTS</string>
+    <string name="DIGIT">DIGIT</string>
+    <string name="JACKPOT_dIGIT">JACKPOT DIGIT</string>
+    <string name="two_digit">TWO DIGIT (CPSR)</string>
+    <string name="JACKPOT_jodi">JACKPOT JODI</string>
+    <string name="right_digit">RIGHT DIGIT</string>
+    <string name="middle_digit">MIDDLE DIGIT</string>
+    <string name="left_digit">LEFT DIGIT</string>
+    <string name="open_digit">OPEN DIGIT</string>
+    <string name="close_panna">CLOSE PANNA</string>
+    <string name="point_reedem_query">For Point Redeem Query Contact</string>
+
+    <string name="message">Message</string>
+    <string name="request_no">Request No</string>
+    <string name="enter_redeem_points">Enter Redeem Points</string>
+    <string name="send_request">Send Redeem Request</string>
+    <string name="min_deposit">Minimum desposit amount :</string>
+    <string name="min_withdraw">Minimum withdrawal amount :</string>
+    <string name="mpin_login">MPIN Login</string>
+    <string name="MPIN">MPIN</string>
+
+</resources>

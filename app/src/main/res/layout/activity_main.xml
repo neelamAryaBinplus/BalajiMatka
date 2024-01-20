@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    tools:openDrawer="start">
+<include
+    android:id="@+id/app_bar"
+    layout="@layout/app_bar_main"/>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="start"
+      android:layout_gravity="start"
+      android:elevation="10dp"
+      android:background="@color/colorPrimaryDark">
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <include
+              android:id="@+id/nav_header"
+              layout="@layout/nav_header" />
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:layout_below="@+id/nav_header"
+              android:layout_marginTop="20dp">
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:id="@+id/rec_menu"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:nestedScrollingEnabled="false" />
+          </RelativeLayout>
+
+      </RelativeLayout>
+
+      </ScrollView>
+
+  </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
